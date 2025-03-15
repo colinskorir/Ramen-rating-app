@@ -1,0 +1,90 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#ramen-menu img {
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.2s; 
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.1); 
+}
+
+#ramen-detail img {
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+h4 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+#ramen-detail img {
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#ramen-detail img:hover {
+    transform: scale(1.1);
+    margin: 0 auto;
+    display: block;
+}
+
+#new-ramen-form {
+    max-width: 400px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+}
+
+#new-ramen-form input,
+#new-ramen-form button {
+    display: block; 
+    width: 100%; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    color: #000000;
+    border-color: #ff0000;
+
+
+}
+
+#new-ramen-form input[type="text"],
+#new-ramen-form input[type="number"] {
+    border: 1px solid #add8e6; 
+    border-color: #000000;
+    outline-color: #87ceeb;
+}
+
+#new-ramen-form button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
