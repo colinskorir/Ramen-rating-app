@@ -7,7 +7,7 @@ function addSubmitListener() {
             id: nextId++,
             name: document.getElementById('new-name').value,
             restaurant: document.getElementById('new-restaurant').value,
-            image: 'default.jpg',
+            image: 'images',
             rating: parseInt(document.getElementById('new-rating').value),
             comment: document.getElementById('new-comment').value
         };
@@ -17,6 +17,21 @@ function addSubmitListener() {
         form.reset(); 
     });
 }
+
+function displayRamens() {
+    const ramenMenu = document.getElementById('ramen-menu');
+    ramenMenu.innerHTML = '';
+    ramens.forEach(ramen => {
+        const ramenImg = document.createElement('img');
+        ramenImg.src = ramen.image;
+        ramenImg.alt = ramen.name;
+        ramenImg.addEventListener('click', () => displayRamenDetails(ramen));
+        ramenMenu.appendChild(ramenImg);
+        
+    })
+}
+
+
 function main() {
     displayRamens();
     addSubmitListener();

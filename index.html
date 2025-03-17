@@ -20,13 +20,10 @@
     </div>
 
     <div id="ramen-detail">   
-        <img class="detail-image" id="detail-image" src="Images/" alt="selected ramen">
+        <img class="detail-image" id="detail-image" src="Images/" alt="Insert Name Here">
         <h2 class="detail-name" id="detail-name"></h2>
-        <h2 class="detail-restaurant" id="detail-restaurant"></h2>
-        <h2 id="detail-name"></h2>
-        <p id="detail-restaurant"></p>
-        <p id="detail-rating"></p>
-        <p id="detail-comment"></p>
+        <h3 class="detail-restaurant" id="detail-restaurant"></h3>
+        
     </div>
     <h2>rating:</h2>
     <p id="Rating-display">
@@ -43,7 +40,7 @@
     <form id="new-ramen-form">
         <input type="text" id="new-name" placeholder="Ramen Name" required>
         <input type="text" id="new-restaurant" placeholder="Restaurant" required>
-        <input type="number" id="new-rating" min="1" max="10" placeholder="Rating (1-5)" required>
+        <input type="number" id="new-rating" min="1" max="10" placeholder="Rating (1-10)" required>
         <input type="text" id="new-comment" placeholder="Comment" required>
         <button type="submit">Create</button>
     </form>
