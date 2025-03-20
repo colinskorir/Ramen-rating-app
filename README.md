@@ -12,12 +12,10 @@ Getting Started
 
 Dependencies
 
-Before installing and running the app, ensure your system meets the following requirements:
-
-Operating System: Windows 10, macOS, or Linux
-
-Node.js (for front-end development)
-
+I have used ,
+ 1. Java
+ 2. style.css
+ 3. index.js
 
 Modifications
 
